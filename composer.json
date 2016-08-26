@@ -37,5 +37,14 @@
         "post-autoload-dump": "Cake\\Composer\\Installer\\PluginInstaller::postAutoloadDump"
     },
     "minimum-stability": "beta",
-    "prefer-stable": true
+    "prefer-stable": true,
+
+    "require": {
+        "tecnick.com/tcpdf": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*",
+        "cakephp/cakephp-codesniffer": "*",
+        "heroku/heroku-buildpack-php": "*"
+    }
 }
